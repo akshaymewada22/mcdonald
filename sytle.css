@@ -1,0 +1,20 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#topheader {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+#topheader .topdiv {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 100px;
+  margin-right: 400px;
+  margin-top: 20px;
+}
+#topheader .topdiv .div1 {
+  display: flex;
+  gap: 20px;
+}/*# sourceMappingURL=sytle.css.map */
