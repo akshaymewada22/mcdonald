@@ -3,18 +3,295 @@
   padding: 0px;
 }
 
+header {
+  background-color: whitesmoke;
+  margin-bottom: 50px;
+}
+
 #topheader {
-  display: grid;
-  grid-template-columns: auto auto;
-}
-#topheader .topdiv {
-  display: grid;
-  grid-template-columns: auto auto;
-  gap: 100px;
-  margin-right: 400px;
-  margin-top: 20px;
-}
-#topheader .topdiv .div1 {
   display: flex;
-  gap: 20px;
+  gap: 30px;
+  margin-left: 30px;
+}
+#topheader img {
+  height: 100px;
+}
+#topheader .nav {
+  display: flex;
+  gap: 40px;
+  margin-left: 10px;
+  margin-top: 40px;
+}
+#topheader .nav2 {
+  display: flex;
+  gap: 40px;
+  margin-left: 350px;
+  margin-top: 40px;
+}
+
+#nav3 {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+  margin-left: 170px;
+  margin-bottom: 50px;
+}
+#nav3 li {
+  list-style: none;
+}
+#nav3 li a {
+  text-decoration: none;
+}
+
+#maindiv {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: -100px;
+}
+#maindiv .div1 {
+  border: 1px solid rgba(0, 0, 0, 0);
+  width: 650px;
+  height: 400px;
+  margin-left: 30px;
+}
+#maindiv .div2 {
+  border: 1px solid rgba(0, 0, 0, 0);
+  width: 600px;
+  height: 400px;
+}
+#maindiv .div2 h1 {
+  margin-top: 20px;
+  padding-left: 80px;
+}
+#maindiv .div2 p {
+  margin-left: 80px;
+  margin-top: 30px;
+}
+#maindiv .div2 span {
+  color: rgba(0, 0, 0, 0.279);
+}
+#maindiv .div2 button {
+  margin-top: 30px;
+  margin-left: 80px;
+  width: 200px;
+  height: 50px;
+  background-color: orange;
+  border: orange;
+}
+
+#one {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 100px;
+  margin-left: 40px;
+}
+#one .one1 {
+  border: 1px solid rgba(0, 0, 0, 0);
+  width: 600px;
+  height: 400px;
+}
+#one .one2 .oneh1 {
+  margin-left: 130px;
+  margin-top: 10px;
+  font-size: 40px;
+}
+#one .one2 .onep1 {
+  margin-left: 130px;
+}
+#one .one2 .onep2 {
+  margin-left: 130px;
+  font-size: smaller;
+}
+#one .one2 .onebutton {
+  margin-left: 130px;
+  margin-top: 50px;
+  width: 200px;
+  height: 50px;
+  background-color: orange;
+  border: orangered;
+}
+
+#divtwo {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 100px;
+  margin-left: 40px;
+}
+#divtwo .two1 {
+  border: 1px solid rgba(0, 0, 0, 0);
+  width: 600px;
+  height: 400px;
+}
+#divtwo .two2 {
+  border: 1px solid rgba(0, 0, 0, 0);
+  width: 600px;
+  height: 400px;
+  margin-right: 10px;
+}
+#divtwo .two2 .texth1 {
+  margin-left: 130px;
+  margin-top: 10px;
+  font-size: 40px;
+}
+#divtwo .two2 .textp1 {
+  margin-left: 130px;
+}
+#divtwo .two2 .textp2 {
+  margin-left: 130px;
+  font-size: smaller;
+}
+#divtwo .two2 button {
+  margin-left: 130px;
+  margin-top: 50px;
+  width: 200px;
+  height: 50px;
+  background-color: orange;
+  border: orangered;
+}
+
+#three {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 100px;
+  margin-left: 40px;
+}
+#three .three1 {
+  border: 1px solid rgba(0, 0, 0, 0);
+  width: 600px;
+  height: 400px;
+}
+#three .three2 {
+  border: 1px solid rgba(0, 0, 0, 0);
+  width: 600px;
+  height: 400px;
+  margin-right: 10px;
+}
+#three .three2 .threeh1 {
+  margin-left: 130px;
+  margin-top: 10px;
+  font-size: 40px;
+}
+#three .three2 .threep1 {
+  margin-left: 130px;
+}
+#three .three2 .threebutton {
+  margin-left: 130px;
+  margin-top: 50px;
+  width: 200px;
+  height: 50px;
+  background-color: orange;
+  border: orangered;
+}
+
+#four {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 100px;
+  margin-left: 40px;
+}
+#four .four1 {
+  border: 1px solid rgba(0, 0, 0, 0);
+  width: 600px;
+  height: 400px;
+}
+#four .four2 {
+  border: 1px solid rgba(0, 0, 0, 0);
+  width: 600px;
+  height: 400px;
+  margin-right: 10px;
+}
+#four .four2 .fourh1 {
+  margin-left: 130px;
+  margin-top: 10px;
+  font-size: 40px;
+}
+#four .four2 .fourp1 {
+  margin-left: 130px;
+}
+#four .four2 .fourp2 {
+  margin-left: 130px;
+  font-size: smaller;
+}
+#four .four2 .fourbutton {
+  margin-left: 130px;
+  margin-top: 50px;
+  width: 200px;
+  height: 50px;
+  background-color: orange;
+  border: orangered;
+}
+
+#five {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 100px;
+  margin-left: 40px;
+}
+#five .five1 {
+  border: 1px solid rgba(0, 0, 0, 0);
+  width: 600px;
+  height: 400px;
+}
+#five .five2 {
+  border: 1px solid rgba(0, 0, 0, 0);
+  width: 600px;
+  height: 400px;
+  margin-right: 10px;
+}
+#five .five2 .fiveh1 {
+  margin-left: 130px;
+  margin-top: 10px;
+  font-size: 40px;
+}
+#five .five2 .fivep1 {
+  margin-left: 130px;
+}
+#five .five2 .fivep2 {
+  margin-left: 130px;
+  font-size: smaller;
+}
+#five .five2 .fivebutton {
+  margin-left: 130px;
+  margin-top: 50px;
+  width: 300px;
+  height: 50px;
+  background-color: orange;
+  border: orangered;
+}
+
+#six {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 100px;
+  margin-left: 40px;
+}
+#six .six1 {
+  border: 1px solid rgba(0, 0, 0, 0);
+  width: 600px;
+  height: 400px;
+}
+#six .six2 {
+  border: 1px solid rgba(0, 0, 0, 0);
+  width: 600px;
+  height: 400px;
+  margin-right: 10px;
+}
+#six .six2 .sixh1 {
+  margin-left: 130px;
+  margin-top: 10px;
+  font-size: 40px;
+}
+#six .six2 .sixp1 {
+  margin-left: 130px;
+}
+#six .six2 .six2 {
+  margin-left: 130px;
+  font-size: smaller;
+}
+#six .six2 .sixbutton {
+  margin-left: 130px;
+  margin-top: 50px;
+  width: 300px;
+  height: 50px;
+  background-color: orange;
+  border: orangered;
 }/*# sourceMappingURL=sytle.css.map */

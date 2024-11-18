@@ -3,25 +3,357 @@
     padding: 0px;
 }
 
+header{
+    background-color: whitesmoke;
+    margin-bottom: 50px;
+}
+
 #topheader{
+    
+    img{
+        height: 100px;
+    }
+
+    display: flex;
+gap: 30px;
+margin-left: 30px;
+.nav{
+    display: flex;
+    gap: 40px;
+margin-left: 10px;
+margin-top: 40px;
+}
+.nav2{
+    display: flex;
+    gap: 40px;
+    margin-left: 350px;
+    margin-top: 40px;
+
+}
+    
+
+}
+
+#nav3{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+margin-left: 170px;
+margin-bottom: 50px;
+li{
+    list-style: none;
+   a{
+    text-decoration: none;
+   }
+}
+
+}
+
+#maindiv{
     display: grid;
     grid-template-columns: auto auto;
-    
-.topdiv{ 
-    display: grid;
-grid-template-columns: auto auto ;
-gap: 100px;
-margin-right: 400px;
-margin-top: 20px;
-    
+    gap: -100px;
+
 
     .div1{
-        display:flex;
-        gap: 20px;
-    
         
+    border: 1px solid rgba(0, 0, 0, 0);
+    width: 650px;
+    height: 400px;
+    margin-left: 30px;
+    }
 
+    .div2{
+        border: 1px solid rgba(0, 0, 0, 0);
+        width: 600px;
+        height: 400px;
+
+        h1{
+        margin-top: 20px;
+            padding-left: 80px;
+
+            
+        }
+        p{
+            margin-left: 80px;
+            margin-top: 30px;
+        }
+        span{
+            color: rgba(0, 0, 0, 0.279);
+        }
+
+        button{
+            margin-top: 30px;
+            margin-left: 80px;
+            width: 200px;
+            height: 50px;
+            background-color: orange;
+            border: orange;
+        }
+    
+
+    }
+    
+}
+
+#one{
+    
+    display: grid;
+    grid-template-columns: auto auto;
+margin-top: 100px; 
+margin-left: 40px;
+    .one1{
+        border: 1px solid rgba(0, 0, 0, 0);
+        width: 600px;
+        height: 400px;
+
+    }
+    .one2{
+        .oneh1{
+            margin-left: 130px;
+            margin-top: 10px;
+            font-size: 40px;
+
+        }
+        .onep1{
+            margin-left: 130px;
+
+        }
+        .onep2{
+           
+            margin-left: 130px;
+            font-size: smaller;
+
+        }
+        .onebutton{
+            margin-left: 130px;
+            margin-top: 50px;
+            width: 200px;
+            height: 50px;
+            background-color: orange;
+            border:orangered;
+
+        }
 
     }
 }
+
+#divtwo{
+    display: grid;
+    grid-template-columns: auto auto;
+margin-top: 100px; 
+margin-left: 40px;
+.two1{
+    border: 1px solid rgba(0, 0, 0, 0);
+        width: 600px;
+        height: 400px;
 }
+.two2{
+    border: 1px solid rgba(0, 0, 0, 0);
+        width: 600px;
+        height: 400px; 
+        margin-right: 10px;
+        .texth1{
+            margin-left: 130px;
+            margin-top: 10px;
+            font-size: 40px;
+        }
+        .textp1{
+            margin-left: 130px;
+        }
+        .textp2{
+            margin-left: 130px;
+            font-size: smaller;
+        }
+        button{
+            margin-left: 130px;
+            margin-top: 50px;
+            width: 200px;
+            height: 50px;
+            background-color: orange;
+            border:orangered;
+        }
+}
+}
+
+#three{
+    display: grid;
+    grid-template-columns: auto auto;
+margin-top: 100px; 
+margin-left: 40px;
+.three1{
+    border: 1px solid rgba(0, 0, 0, 0);
+    width: 600px;
+    height: 400px;
+
+}
+.three2{
+    border: 1px solid rgba(0, 0, 0, 0);
+    width: 600px;
+    height: 400px; 
+    margin-right: 10px;
+    .threeh1{
+        margin-left: 130px;
+        margin-top: 10px;
+        font-size: 40px;
+
+    }
+    .threep1{
+        margin-left: 130px;
+
+    }
+    .threebutton{
+        margin-left: 130px;
+        margin-top: 50px;
+        width: 200px;
+        height: 50px;
+        background-color: orange;
+        border:orangered;
+
+    }
+
+}
+
+}
+
+#four{
+    display: grid;
+    grid-template-columns: auto auto;
+margin-top: 100px; 
+margin-left: 40px;
+.four1{
+    border: 1px solid rgba(0, 0, 0, 0);
+    width: 600px;
+    height: 400px;
+
+}
+.four2{
+    border: 1px solid rgba(0, 0, 0, 0);
+    width: 600px;
+    height: 400px; 
+    margin-right: 10px;
+
+    .fourh1{
+        margin-left: 130px;
+        margin-top: 10px;
+        font-size: 40px;
+
+    }
+    .fourp1{
+        margin-left: 130px;
+
+    }
+    .fourp2{
+        margin-left: 130px;
+        font-size: smaller;
+    }
+    .fourbutton{
+        margin-left: 130px;
+        margin-top: 50px;
+        width: 200px;
+        height: 50px;
+        background-color: orange;
+        border:orangered;
+
+    }
+
+}
+
+}
+
+#five{
+    display: grid;
+    grid-template-columns: auto auto;
+margin-top: 100px; 
+margin-left: 40px;
+
+.five1{
+    border: 1px solid rgba(0, 0, 0, 0);
+    width: 600px;
+    height: 400px;
+
+}
+.five2{
+    border: 1px solid rgba(0, 0, 0, 0);
+    width: 600px;
+    height: 400px; 
+    margin-right: 10px;
+
+    .fiveh1{
+        margin-left: 130px;
+        margin-top: 10px;
+        font-size: 40px;
+
+    }
+    .fivep1{
+        margin-left: 130px;
+
+    }
+    .fivep2{
+        margin-left: 130px;
+        font-size: smaller;
+    }
+    .fivebutton{
+        margin-left: 130px;
+        margin-top: 50px;
+        width: 300px;
+        height: 50px;
+        background-color: orange;
+        border:orangered;
+
+    }
+
+}
+
+}
+
+
+#six{
+    display: grid;
+    grid-template-columns: auto auto;
+margin-top: 100px; 
+margin-left: 40px;
+
+.six1{
+    border: 1px solid rgba(0, 0, 0, 0);
+    width: 600px;
+    height: 400px;
+
+}
+.six2{
+    border: 1px solid rgba(0, 0, 0, 0);
+    width: 600px;
+    height: 400px; 
+    margin-right: 10px;
+
+    .sixh1{
+        margin-left: 130px;
+        margin-top: 10px;
+        font-size: 40px;
+
+    }
+    .sixp1{
+        margin-left: 130px;
+
+    }
+    .six2{
+        margin-left: 130px;
+        font-size: smaller;
+    }
+    .sixbutton{
+        margin-left: 130px;
+        margin-top: 50px;
+        width: 300px;
+        height: 50px;
+        background-color: orange;
+        border:orangered;
+
+    }
+
+}
+
+}
+
+
+
+
+
